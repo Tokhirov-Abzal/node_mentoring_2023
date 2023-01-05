@@ -1,0 +1,23 @@
+{
+  "name": "node_mp",
+  "version": "1.0.0",
+  "description": "Node mentoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokhirov-Abzal/node_mentoring_2023.git"
+  },
+  "author": "Tokhirov Abzal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tokhirov-Abzal/node_mentoring_2023/issues"
+  },
+  "homepage": "https://github.com/Tokhirov-Abzal/node_mentoring_2023#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  }
+}
