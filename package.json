@@ -4,7 +4,11 @@
   "description": "Node mentoring",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./task3/index.js -d ./task3/transpiled.js",
+    "task1": "nodemon ./task1/",
+    "task2": "nodemon ./task2/",
+    "task3": "npm run build && nodemon ./task3/transpiled.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +21,13 @@
   },
   "homepage": "https://github.com/Tokhirov-Abzal/node_mentoring_2023#readme",
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
